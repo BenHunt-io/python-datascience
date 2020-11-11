@@ -1,0 +1,13 @@
+#####################################################
+# Can specify pip install options
+#
+#####################################################
+###### Requirements without Version Specifiers ######
+numpy
+###### Requirements with Version Specifiers ######
+torch==1.7.0+cpu
+torchvision==0.8.1+cpu 
+torchaudio==0.7.0
+###### Refer to other requirements files ######
+###### A particular file ######
+-f https://download.pytorch.org/whl/torch_stable.html 
